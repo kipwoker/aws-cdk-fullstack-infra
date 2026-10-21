@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# CDK
+.cdk.staging/
+cdk.out/
+cdk.context.json
+cdk-outputs.json
+cdk-outputs.*.json
+
+# Local configuration and secrets - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build output
+dist/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.tsbuildinfo
